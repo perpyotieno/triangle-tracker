@@ -18,14 +18,10 @@ h1{
   text-align: center;
   font-size: 3.5em;
 }
-.triangles{
-  display: flex;
-  justify-content: space-around;
-}
-.triangles div{
-  width: 30%;
-}
-.triangles div img{
-  width: 200px;
-  height: 150px;
+img{
+  width: 70%;
+  height: 250px;
+  margin-left: 200px;
+  margin-right: 200px;
+
 }
