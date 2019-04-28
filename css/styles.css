@@ -24,10 +24,11 @@ img{
   margin-left: 180px;
   margin-right: 200px;
   border-radius: 25px;
+  margin-bottom: 30px;
 
 }
 h2{
-  font-style: italic;
+  font-family: 'Kalam', cursive;
   color: #DFF8EB;
   font-weight: 600;
   text-align: center;
@@ -35,8 +36,8 @@ h2{
 p{
   text-align: center;
   color: white;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 button{
   margin-bottom: 20px;
-  
 }
