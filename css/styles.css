@@ -12,3 +12,8 @@ body{
   margin-right: 300px;
   opacity: 0.8;
 }
+h1{
+  font-family: 'Gugi', cursive;
+  color: #DFF8EB;
+  text-align: center;
+}
