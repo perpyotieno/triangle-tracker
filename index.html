@@ -1,4 +1,4 @@
-<!DOCTYPE html>i
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <form class="forms" action="javascript:myTriangleTracker()" method="post">
+
+    <h1>Triangle Tracker</h1>
+    <div class="overlay">
+
+
+    <form id="form" class="forms" action="javascript:myTriangleTracker()" method="post">
       <div class="form-group">
       <label for="firstvalue">First Value</label>
       <input type="number" id="number1" placeholder="Enter first value" class="form-control">
@@ -25,6 +30,7 @@
       </div>
 
     </form>
+    </div>
     <p id='text'></p>
     <p id='display'></p>
     <script src="js/triangle-tracker.js" charset="utf-8"></script>
