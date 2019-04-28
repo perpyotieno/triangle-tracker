@@ -1,4 +1,14 @@
+body{
+  /* background-color: #214E34; */
+  background-color: #13505B;
+}
 .forms{
   width: 40%;
   margin: auto;
+}
+.overlay{
+  background-color: #DFF8EB;
+  margin-left: 300px;
+  margin-right: 300px;
+  opacity: 0.8;
 }
