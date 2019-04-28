@@ -7,41 +7,35 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
   </head>
-  <body>
-
+  <body class="container">
     <h1>Triangle Tracker</h1>
-
-
+    <h2>Trigonometry made easy!!!</h2>
+    <p>Let's have some fun creating triangles!</p>
+    <p> Depending on your input, you can create an Equilateral, Isosceles or Scalene triangle with first value, second value and third value.</p>
+    <p>Try it below. Click the Answer button for your results.</p>
     <div class="overlay">
+      <form id="form" class="forms" action="javascript:myTriangleTracker()" method="post">
+        <div class="form-group">
+          <label for="firstvalue">First Value</label>
+          <input type="number" id="number1" placeholder="Enter first value" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="secondvalue">Second Value</label>
+          <input type="number" id="number2" placeholder="Enter second value" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="thirdvalue">Third value</label>
+          <input type="number" id="number3" placeholder="Enter third value" class="form-control">
+        </div>
+        <div class="">
+            <button type="submit" class="btn btn-success" onclick="validateForm()"autofocus class="form-control" >Submit</button>
+        </div>
 
-    <form id="form" class="forms" action="javascript:myTriangleTracker()" method="post">
-      <div class="form-group">
-      <label for="firstvalue">First Value</label>
-      <input type="number" id="number1" placeholder="Enter first value" class="form-control">
-      </div>
-      <div class="form-group">
-      <label for="secondvalue">Second Value</label>
-      <input type="number" id="number2" placeholder="Enter second value" class="form-control">
-      </div>
-      <div class="form-group">
-      <label for="thirdvalue">Third value</label>
-      <input type="number" id="number3" placeholder="Enter third value" class="form-control">
-      </div>
-      <div class="">
-        <button type="submit" class="btn btn-success" onclick="validateForm()"autofocus class="form-control" >Submit</button>
-      </div>
-
-    </form>
+      </form>
     </div>
     <p id='text'></p>
     <p id='display'></p>
-    <div class="triangles">
-
-    <div>
     <img src="images/alltriangles.png" alt="image of equilateral triangle">
-
-  </div>
-    </div>
     <script src="js/triangle-tracker.js" charset="utf-8"></script>
   </body>
 </html>
