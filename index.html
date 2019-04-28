@@ -7,11 +7,23 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <form class="" action="javascript:myTriangleTracker()" method="post">
-      <input type="number" id="number1" placeholder="Enter first value">
-      <input type="number" id="number2" placeholder="Enter second value">
-      <input type="number" id="number3" placeholder="Enter third value">
-      <button type="submit" autofocus >Submit</button>
+    <form class="forms" action="javascript:myTriangleTracker()" method="post">
+      <div class="">
+      <label for="firstvalue">First Value</label>
+      <input type="number" id="number1" placeholder="Enter first value" class="form-control">
+      </div>
+      <div class="">
+      <label for="secondvalue">Second Value</label>
+      <input type="number" id="number2" placeholder="Enter second value" class="form-control">
+      </div>
+      <div class="">
+      <label for="thirdvalue">Third value</label>
+      <input type="number" id="number3" placeholder="Enter third value" class="form-control">
+      </div>
+      <div class="">
+        <button type="submit" autofocus >Submit</button>
+      </div>
+
     </form>
     <p id='display'></p>
     <script src="js/triangle-tracker.js" charset="utf-8"></script>
