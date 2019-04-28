@@ -24,7 +24,7 @@ In case of any issues,questions,ideas or concerns,contact me at perpetuamary6630
 ### License
 *MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2019] [Perpetua Mary]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
