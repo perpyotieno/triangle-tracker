@@ -15,11 +15,11 @@ function myTriangleTracker(){
    }
    else {
      document.getElementById('display').innerHTML = "Those values cannot form a triangle";
-   }
+   };
 
  }
 
 function myTriangle() {
   var triangle = ["Equilateral", "Isosceles", "Scalene"];
-  alert(triangle.join()) ;
+  alert("There are different types of triangles. They include: "+ triangle.join());
 }
