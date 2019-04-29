@@ -5,7 +5,7 @@
 This is a project that helps a user to determine types of triangles.The user inputs the length of different sides of the triangle. He/she then clicks submit and the output is displayed.
 ## Setup/Installation Requirements
 * Install triangle tracker by cloning this repository.
-* https://github.com/perpyotieno/triangle-tracker
+https://github.com/perpyotieno/triangle-tracker
 
 
 * To use the website:
@@ -16,6 +16,30 @@ This is a project that helps a user to determine types of triangles.The user inp
 * The type of triangle is displayed.
 
 ## Link to Live website
+
+## BDD
+Enter first value
+Input Example 3
+Output example 3
+
+Enter second value
+Input Example 5
+Output Example 5
+
+Enter third value
+Input example 5
+Output example 5
+
+Submit.
+Input example the program compares the three values and the conditions
+True value is output. Output example: This is an isosceles triangle.
+
+If all sides are Equal
+Output:This is an Equilateral triangle.
+
+If none of the sides are equal but the sum of two sides is more than the other side, outphis is a Scalene triangle.
+
+If none of the some of two sides is less than or equal to the other side, output:This is not a triangle.
 
 ## Technologies Used
 This pwebsite has been made using html, css and JavaScript.
