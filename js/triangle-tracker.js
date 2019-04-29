@@ -7,14 +7,14 @@ function myTriangleTracker(){
         document.getElementById('display').innerHTML = "This is an Isosceles Triangle";
      }
     else if ((length1 === length2) && (length2 === length3)) {
-        document.getElementById('display').innerHTML = "That is an Equilateral Triangle";
+        document.getElementById('display').innerHTML = "This is an Equilateral Triangle";
      }
     else {
-        document.getElementById('display').innerHTML = "That is a Scalene Triangle";
+        document.getElementById('display').innerHTML = "This is a Scalene Triangle";
      }
    }
    else {
-     document.getElementById('display').innerHTML = "Those values cannot form a triangle";
+     document.getElementById('display').innerHTML = "This is not a triangle";
    };
 
  }
