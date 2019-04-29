@@ -16,7 +16,7 @@ https://github.com/perpyotieno/triangle-tracker
 * The type of triangle is displayed.
 
 ## Link to Live website
-
+https://perpyotieno.github.io/triangle-tracker/
 ## BDD
 Enter first value
 Input Example 3
